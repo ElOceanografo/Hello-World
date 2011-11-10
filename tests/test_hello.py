@@ -1,5 +1,5 @@
 # test_hello.py
-from hello_world import *
+import hello
 
 def test_greeting():
-    assert greeting() == 'Hello, World!'
+    assert hello.greeting() == 'Hello, World!'
